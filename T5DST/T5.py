@@ -1,10 +1,13 @@
 # Copyright (c) Facebook, Inc. and its affiliates
 
 import os, random
+from pathlib import Path
 import torch
+torch.cuda.empty_cache()
 import argparse
 import pytorch_lightning as pl
 from pytorch_lightning import Trainer, seed_everything
+from pytorch_lightning.callbacks import ModelCheckpoint
 from transformers import (AdamW, T5Tokenizer, BartTokenizer, BartForConditionalGeneration, T5ForConditionalGeneration, WEIGHTS_NAME,CONFIG_NAME)
 from data_loader import prepare_data
 from config import get_args
@@ -44,6 +47,24 @@ from collections import Counter
 
 #     return torch.mean(loss_temp)
 
+class PeriodicCheckpoint(ModelCheckpoint):
+    def __init__(self, every: int, dirpath):
+        super().__init__(dirpath=dirpath)
+        self.every = every
+
+    def on_train_batch_end(
+        self, trainer: pl.Trainer, pl_module: pl.LightningModule, *args, **kwargs
+    ):
+        if pl_module.global_step % self.every == 0:
+            assert self.dirpath is not None
+            current = Path(self.dirpath) / f"latest-{pl_module.global_step}.ckpt"
+            trainer.save_checkpoint(current)
+        # Keep a few around
+        if pl_module.global_step % (self.every * 5) != 0:
+            prev = (
+                Path(self.dirpath) / f"latest-{pl_module.global_step - self.every}.ckpt"
+            )
+            prev.unlink(missing_ok=True)
 
 
 class DST_Seq2Seq(pl.LightningModule):
@@ -115,18 +136,20 @@ def train(args, *more):
     if not os.path.exists(save_path):
         os.makedirs(save_path)
 
+
+    checkpoint = PeriodicCheckpoint(every=200, dirpath=args["saving_dir"])
     trainer = Trainer(
-                    default_root_dir=save_path,
-                    accumulate_grad_batches=args["gradient_accumulation_steps"],
-                    gradient_clip_val=args["max_norm"],
-                    max_epochs=args["n_epochs"],
-                    callbacks=[pl.callbacks.EarlyStopping(monitor='val_loss',min_delta=0.00, patience=5,verbose=False, mode='min')],
-                    gpus=args["GPU"],
-                    deterministic=True,
-                    num_nodes=1,
-                    #precision=16,
-                    accelerator="ddp"
-                    )
+            default_root_dir=save_path,
+            accumulate_grad_batches=args["gradient_accumulation_steps"],
+            gradient_clip_val=args["max_norm"],
+            max_epochs=args["n_epochs"],
+            callbacks=[checkpoint, pl.callbacks.EarlyStopping(monitor='val_loss',min_delta=0.00, patience=5,verbose=False, mode='min')],
+            devices=args["GPU"],
+            deterministic=True,
+            num_nodes=1,
+            #precision=16,
+            accelerator="cuda",
+        )
 
     trainer.fit(task, train_loader, val_loader)
 
@@ -217,18 +240,25 @@ def fine_tune(args, *more):
     task = DST_Seq2Seq(args, tokenizer, model)
     train_loader, val_loader, test_loader, ALL_SLOTS, fewshot_loader_dev, fewshot_loader_test = prepare_data(args, tokenizer)
 
+
+    checkpoint = ModelCheckpoint(
+        dirpath="save2",
+        save_last=True,
+        every_n_train_steps=5
+    )
     trainer = Trainer(
                     default_root_dir=args["model_checkpoint"],
                     accumulate_grad_batches=args["gradient_accumulation_steps"],
                     gradient_clip_val=args["max_norm"],
                     max_epochs=20,
-                    callbacks=[pl.callbacks.EarlyStopping(monitor='val_loss',min_delta=0.00, patience=8,verbose=False, mode='min')],
-                    gpus=args["GPU"],
+                    callbacks=[checkpoint, pl.callbacks.EarlyStopping(monitor='val_loss',min_delta=0.00, patience=8,verbose=False, mode='min')],
+                    devices=args["GPU"],
                     deterministic=True,
                     num_nodes=1,
                     # precision=16,
-                    accelerator="ddp"
-                    )
+                    strategy="ddp",
+                    accelerator="cuda"
+                )
 
     trainer.fit(task, train_loader, val_loader)
 
