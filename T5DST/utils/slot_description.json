@@ -1,4 +1,54 @@
 {
+    "escai-genre": {
+        "description_human": "genre of the song",
+        "values": [
+            "rock",
+            "pop",
+            "edm",
+            "funk",
+            "dubstep",
+            "any"
+        ],
+        "naive": "genre of the song",
+        "question": "What is the genre of the song that the user wants to make?",
+        "slottype": "genre of the song"
+    },
+    "escai-instrument": {
+        "description_human": "instrument used in the song",
+        "values": [
+            "guitar",
+            "violin",
+            "any",
+            "instrumental",
+            "drums",
+            "piano",
+            "bass"
+        ],
+        "naive": "instrument used in the song",
+        "question": "What instrument does the user want to use in the song?",
+        "slottype": "instrument used in the song"
+    },
+    "escai-apifunction": {
+        "description_human": "API function to call in the project source code",
+        "values": [
+            "makeBeat",
+            "fitMedia",
+            "setEffect"
+        ],
+        "naive": "API function called in the project",
+        "question": "What API function does the user want to use in the project?",
+        "slottype": "API functions called in the project"
+    },
+    "escai-codeconstruct": {
+        "description_human": "Code constructs to use in the source code",
+        "values": [
+            "loop",
+            "function"
+        ],
+        "naive": "Code constructs to use in the project",
+        "question": "What code construct does the user want to use in the project?",
+        "slottype": "code constructs used in the project"
+    },
     "hotel-pricerange": {
         "description_human": "price budget of the hotel",
         "values": [

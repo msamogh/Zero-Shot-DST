@@ -1,6 +1,6 @@
 #!/bin/sh
 #SBATCH --partition=gpu
-#SBATCH --gpus=a100:2
+#SBATCH --gpus=a100:1
 #SBATCH -N 1      # nodes requested
 #SBATCH -n 1      # tasks requested
 #SBATCH -c 4      # cores requested
@@ -12,5 +12,4 @@
 echo wassup
 nvidia-smi
 module load cuda/11.4.3
-export CUDA_VISIBLE_DEVICES=1,2,3,4
-~/myblue/woz/cai-nlp/venv/bin/python T5.py --train_batch_size 2 --GPU 2 --except_domain taxi --slot_lang slottype
+~/myblue/woz/cai-nlp/venv/bin/python T5.py --train_batch_size 2 --GPU 1 --except_domain taxi --slot_lang slottype

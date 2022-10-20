@@ -29,5 +29,7 @@ def get_args():
     parser.add_argument("--semi", action='store_true')
     parser.add_argument("--mode", type=str, default="train")
 
+    parser.add_argument("--ckpt_path", type=str, default=None, help="Path to checkpoint for prediction")
+
     args = parser.parse_args()
     return args

@@ -1,0 +1,2472 @@
+{
+    "ESCAI33.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "10": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "11": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "14": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-yg's sounds"
+                ]
+            },
+            "15": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "17": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "18": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "19": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "22": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "23": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "24": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "25": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "26": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "27": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-trackname-dontcare"
+                ],
+                "pred_belief": []
+            },
+            "28": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "29": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "30": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "31": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "32": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "33": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "34": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "35": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "36": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap"
+                ],
+                "pred_belief": []
+            },
+            "37": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap"
+                ],
+                "pred_belief": []
+            },
+            "38": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap"
+                ],
+                "pred_belief": []
+            },
+            "39": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap"
+                ],
+                "pred_belief": []
+            },
+            "40": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap"
+                ],
+                "pred_belief": []
+            },
+            "41": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap"
+                ],
+                "pred_belief": []
+            },
+            "42": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect"
+                ],
+                "pred_belief": []
+            },
+            "43": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect"
+                ],
+                "pred_belief": []
+            },
+            "44": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect"
+                ],
+                "pred_belief": []
+            },
+            "45": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": []
+            },
+            "46": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": []
+            },
+            "47": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": []
+            },
+            "48": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-genre-trap",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": []
+            }
+        }
+    },
+    "ESCAI35.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "escai-genre-funk"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            }
+        }
+    },
+    "ESCAI36.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-apifunction-API",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B"
+                ],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "7": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "9": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "10": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "11": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "14": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "15": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "17": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "18": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": [
+                    "escai-instrument-emojis"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "22": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "23": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "escai-codeconstruct-var"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "25": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "26": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "27": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "28": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "29": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "30": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "31": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "32": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "33": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "34": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "35": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "36": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "37": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "38": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "39": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "40": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "41": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "escai-genre-acoustic",
+                    "escai-instrument-acorn guest house"
+                ]
+            },
+            "42": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "43": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "44": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "45": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "46": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "47": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "48": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "49": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "50": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "51": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "52": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "53": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "54": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "55": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "56": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "57": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "58": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "59": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "60": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "61": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "62": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "63": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "64": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "65": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "66": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "67": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "68": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "69": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "70": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "71": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "72": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "73": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "74": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "75": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "76": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "77": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "78": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "79": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "80": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "81": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "82": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "83": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "84": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "85": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "86": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "87": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "88": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "89": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "90": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "91": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "92": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "93": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "94": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "95": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "96": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "97": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "98": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "99": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "100": {
+                "turn_belief": [
+                    "escai-genre-funk",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            }
+        }
+    },
+    "ESCAI37.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-gospel"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [
+                    "escai-genre-gospel"
+                ],
+                "pred_belief": []
+            },
+            "7": {
+                "turn_belief": [
+                    "escai-genre-gospel"
+                ],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": []
+            }
+        }
+    },
+    "ESCAI39.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-apifunction-API",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-apifunction-API",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-epic",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "10": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-epic",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "11": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "12": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "13": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "14": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "15": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "16": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "17": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "18": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "19": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-idk"
+                ]
+            },
+            "20": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-cod.org"
+                ]
+            },
+            "21": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "22": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "23": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "24": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "25": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "26": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "27": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "28": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "29": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "30": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "31": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "32": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "33": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "34": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "35": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "36": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "37": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "38": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "39": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "40": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "41": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "42": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "43": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "44": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "45": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "46": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "47": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "48": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "49": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "50": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "51": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "52": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "53": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "54": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "55": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "56": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "57": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "58": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "59": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "60": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "61": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "62": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "63": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "64": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "65": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "66": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "67": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "68": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "69": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "70": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "71": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "72": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "73": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "74": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "75": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "76": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "77": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-piano"
+                ]
+            },
+            "78": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-piano"
+                ]
+            },
+            "79": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "80": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "81": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "82": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "83": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "84": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "85": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "86": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "87": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music"
+                ]
+            },
+            "88": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": []
+            },
+            "89": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "90": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "91": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "92": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "93": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "94": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "95": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "96": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "97": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "98": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            }
+        }
+    },
+    "ESCAI40.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-instrumental",
+                    "escai-instrument-instrumental"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "11": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "escai-genre-jazzand dubstep",
+                    "escai-instrument-jazzand dubstep"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "15": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "17": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dubstep"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "19": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "22": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "23": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "24": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "25": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "26": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "27": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "28": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "29": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "30": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "31": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "32": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "33": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "34": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "35": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "36": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "37": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "38": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "39": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "40": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": [
+                    "escai-genre-bass"
+                ]
+            },
+            "41": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "42": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "43": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "44": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "45": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "46": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "47": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "48": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "49": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "50": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "51": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "52": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "escai-genre-dubstep"
+                ],
+                "pred_belief": []
+            },
+            "53": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "54": {
+                "turn_belief": [],
+                "pred_belief": []
+            }
+        }
+    }
+}

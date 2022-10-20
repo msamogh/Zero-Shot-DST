@@ -10,7 +10,7 @@ import random
 from functools import partial
 from utils.fix_label import fix_general_label_error
 from collections import OrderedDict
-EXPERIMENT_DOMAINS = ["hotel", "train", "restaurant", "attraction", "taxi"]
+EXPERIMENT_DOMAINS = ["hotel", "train", "restaurant", "attraction", "taxi", "escai"]
 
 random.seed(577)
 HISTORY_MAX_LEN = 450
@@ -45,11 +45,23 @@ def read_data(args, path_name, SLOTS, tokenizer, description, dataset=None):
     with open(path_name) as f:
         dials = json.load(f)
 
+        slot_temp = SLOTS
+        if dataset == "train" or dataset == "dev":
+            if args["except_domain"] != "none":
+                slot_temp = [k for k in SLOTS if args["except_domain"] not in k]
+            elif args["only_domain"] != "none":
+                slot_temp = [k for k in SLOTS if args["only_domain"] in k]
+        else:
+            if args["except_domain"] != "none":
+                slot_temp = [k for k in SLOTS if args["except_domain"] in k]
+            elif args["only_domain"] != "none":
+                slot_temp = [k for k in SLOTS if args["only_domain"] in k]
+
         if dataset=="train" and args["fewshot"]>0:
             random.Random(args["seed"]).shuffle(dials)
             dials = dials[:int(len(dials)*args["fewshot"])]
 
-        for dial_dict in dials:
+        for idx, dial_dict in enumerate(dials):
             dialog_history = ""
 
             # Counting domains
@@ -68,13 +80,11 @@ def read_data(args, path_name, SLOTS, tokenizer, description, dataset=None):
                 continue
 
             # Reading data
-            for ti, turn in enumerate(dial_dict["turns"]):
-                turn_id = ti
-
+            for turn_id, turn in enumerate(dial_dict["turns"]):
                 # accumulate dialogue utterances
                 dialog_history +=  (" System: " + turn["system"] + " User: " + turn["user"])
                 if args["fix_label"]:
-                    slot_values = fix_general_label_error(turn["state"]["slot_values"],SLOTS)
+                    slot_values = fix_general_label_error(turn["state"]["slot_values"], SLOTS)
                 else:
                     slot_values = turn["state"]["slot_values"]
                 # input: dialogue history + slot
@@ -84,10 +94,8 @@ def read_data(args, path_name, SLOTS, tokenizer, description, dataset=None):
                 slot_temp = SLOTS
                 if dataset == "train" or dataset == "dev":
                     if args["except_domain"] != "none":
-                        slot_temp = [k for k in SLOTS if args["except_domain"] not in k]
                         slot_values = OrderedDict([(k, v) for k, v in slot_values.items() if args["except_domain"] not in k])
                     elif args["only_domain"] != "none":
-                        slot_temp = [k for k in SLOTS if args["only_domain"] in k]
                         slot_values = OrderedDict([(k, v) for k, v in slot_values.items() if args["only_domain"] in k])
                 else:
                     if args["except_domain"] != "none":
@@ -126,7 +134,7 @@ def read_data(args, path_name, SLOTS, tokenizer, description, dataset=None):
                             "output_text":output_text,
                             "slot_text":slot_text,
                             "value_text":value_text
-                            }
+                        }
                         data.append(data_detail)
 
                 else:
@@ -173,8 +181,8 @@ def read_data(args, path_name, SLOTS, tokenizer, description, dataset=None):
                             }
                         data.append(data_detail)
     # print(len(data))
-    for idx in range(10):
-        print(data[idx])
+    # for idx in range(10):
+    #     print(data[idx])
     print("domain_counter", domain_counter)
     return data, slot_temp
 
@@ -213,10 +221,40 @@ def collate_fn(data, tokenizer):
     return batch_data
 
 
-def prepare_data(args, tokenizer):
+def predict_dataloader(args, tokenizer):
+    path_predict = 'data/escai_dials_2.json'
+
+    ontology = json.load(open("data/multi-woz/MULTIWOZ2 2/ontology.json", 'r'))
+    ALL_SLOTS = get_slot_information(ontology)
+    description = json.load(open("utils/slot_description.json", 'r'))
+
+    data_predict, _ = read_data(args, path_predict, ALL_SLOTS, tokenizer, description, "test")
+
+    predict_dataset = DSTDataset(data_predict, args)
+    
+    if "gpt" in args["model_name"]:
+        predict_loader = DataLoader(predict_dataset, batch_size=args["train_batch_size"], shuffle=True, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=1)
+    else:
+        predict_loader = DataLoader(predict_dataset, batch_size=args["train_batch_size"], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=1)
+
+    return predict_loader
+
+
+def prepare_predict(args, tokenizer, path_test="data/test_dials.json"):
+    ontology = json.load(open("data/multi-woz/MULTIWOZ2 2/ontology.json", 'r'))
+    ALL_SLOTS = get_slot_information(ontology)
+    description = json.load(open("utils/slot_description.json", 'r'))
+
+    data_test, ALL_SLOTS = read_data(args, path_test, ALL_SLOTS, tokenizer, description, "test")
+    test_dataset = DSTDataset(data_test, args)
+    test_loader = DataLoader(test_dataset, batch_size=args["test_batch_size"], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
+
+    return ALL_SLOTS, test_loader
+
+
+def prepare_data(args, tokenizer, path_test="data/test_dials.json"):
     path_train = 'data/train_dials.json'
     path_dev = 'data/dev_dials.json'
-    path_test = 'data/test_dials.json'
 
     ontology = json.load(open("data/multi-woz/MULTIWOZ2 2/ontology.json", 'r'))
     ALL_SLOTS = get_slot_information(ontology)
@@ -232,9 +270,9 @@ def prepare_data(args, tokenizer):
     test_dataset = DSTDataset(data_test, args)
 
     if "gpt" in args["model_name"]:
-        train_loader = DataLoader(train_dataset, batch_size=args["train_batch_size"], shuffle=True, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=4)
-        test_loader = DataLoader(test_dataset, batch_size=args["test_batch_size"], shuffle=False, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=4)
-        dev_loader = DataLoader(dev_dataset, batch_size=args["dev_batch_size"], shuffle=False, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=4)
+        train_loader = DataLoader(train_dataset, batch_size=args["train_batch_size"], shuffle=True, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=2)
+        test_loader = DataLoader(test_dataset, batch_size=args["test_batch_size"], shuffle=False, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=2)
+        dev_loader = DataLoader(dev_dataset, batch_size=args["dev_batch_size"], shuffle=False, collate_fn=partial(gpt_collate_fn, tokenizer=tokenizer), num_workers=2)
     else:
         train_loader = DataLoader(train_dataset, batch_size=args["train_batch_size"], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
         test_loader = DataLoader(test_dataset, batch_size=args["test_batch_size"], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
