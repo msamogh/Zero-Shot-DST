@@ -1,0 +1,3163 @@
+{
+    "ESCAI33.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "10": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "11": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "14": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-yg's sounds",
+                    "attraction-name-yg's"
+                ]
+            },
+            "15": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "17": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "18": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "19": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "22": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "23": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "24": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-name-yg's sounds"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-name-yg's sounds"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-name-yg's sounds"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "escai-trackname-dontcare"
+                ],
+                "pred_belief": []
+            },
+            "28": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-name-yg's sounds"
+                ]
+            },
+            "29": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-name-ciara"
+                ]
+            },
+            "30": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "31": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "32": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": []
+            },
+            "33": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "34": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "35": {
+                "turn_belief": [
+                    "escai-instrument-bass"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "36": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "37": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "38": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "39": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "40": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "41": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "42": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "43": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "44": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect"
+                ],
+                "pred_belief": []
+            },
+            "45": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "46": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "47": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "48": {
+                "turn_belief": [
+                    "escai-instrument-bass",
+                    "attraction-area-uptown",
+                    "escai-apifunction-setEffect",
+                    "escai-codeconstruct-function"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            }
+        }
+    },
+    "ESCAI35.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code",
+                    "attraction-area-west"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-codeconstruct-code",
+                    "attraction-area-west"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            }
+        }
+    },
+    "ESCAI36.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-apifunction-API",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B"
+                ],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "7": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "9": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "10": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "11": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "14": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": []
+            },
+            "15": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": [
+                    "attraction-area-west"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": [
+                    "attraction-area-west"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": [
+                    "escai-instrument-emojis",
+                    "attraction-area-west",
+                    "attraction-name-emojis"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "23": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "escai-codeconstruct-var",
+                    "attraction-area-centre"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "28": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "29": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "30": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "31": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "32": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "33": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "34": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "35": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "36": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "37": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare"
+                ]
+            },
+            "38": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare"
+                ]
+            },
+            "39": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "40": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "41": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "escai-genre-acoustic",
+                    "escai-instrument-acorn guest house",
+                    "attraction-area-centre",
+                    "attraction-type-acoustic"
+                ]
+            },
+            "42": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "43": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "44": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "45": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "46": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "47": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "48": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "49": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "50": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "51": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "52": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "53": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "54": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "55": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "56": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "57": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "58": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "59": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "60": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "61": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "62": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "63": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "64": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "65": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "66": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "67": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "68": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "69": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "70": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "71": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "72": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "73": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "74": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "75": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "76": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "77": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "78": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "79": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "80": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "81": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "82": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "83": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "84": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "85": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "86": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "87": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "88": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "89": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "90": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "91": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "92": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "93": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "94": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "95": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "96": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "97": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "98": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": []
+            },
+            "99": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "100": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "escai-musicalform-B",
+                    "escai-apifunction-makeBeat",
+                    "escai-codeconstruct-loop",
+                    "escai-instrument-drums"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            }
+        }
+    },
+    "ESCAI37.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code",
+                    "attraction-type-school"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "attraction-area-downtown"
+                ],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "attraction-area-downtown"
+                ],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": []
+            }
+        }
+    },
+    "ESCAI39.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-apifunction-API",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-apifunction-API",
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-epic",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "10": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-epic",
+                    "escai-codeconstruct-code",
+                    "attraction-type-epic"
+                ]
+            },
+            "11": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "12": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "13": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "14": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "15": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "16": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "17": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "18": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "19": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-idk",
+                    "attraction-type-music"
+                ]
+            },
+            "20": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "21": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "22": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare",
+                    "attraction-type-games"
+                ]
+            },
+            "23": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "24": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "25": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare"
+                ]
+            },
+            "26": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare"
+                ]
+            },
+            "27": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "28": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "29": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare"
+                ]
+            },
+            "30": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "31": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "32": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "33": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "34": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "35": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "36": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "37": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "38": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "39": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "40": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "41": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "42": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "43": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "44": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "45": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "46": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "47": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "48": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "49": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "50": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "51": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "52": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "53": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "54": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "55": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "56": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "57": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "58": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "59": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "60": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "61": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "62": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "63": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "64": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "65": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "66": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "67": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "68": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "69": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "70": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "71": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "72": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "73": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "74": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "75": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "76": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "77": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-piano",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "78": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-piano",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "79": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "80": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare"
+                ]
+            },
+            "81": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "82": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "83": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "84": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "85": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "86": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "87": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "88": {
+                "turn_belief": [
+                    "escai-instrument-piano"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-area-centre",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "89": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "90": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "91": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "92": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-runner 2"
+                ]
+            },
+            "93": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "94": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "95": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "96": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "97": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            },
+            "98": {
+                "turn_belief": [
+                    "escai-instrument-piano",
+                    "escai-apifunction-makeBeat"
+                ],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-instrument-dontcare",
+                    "escai-apifunction-dontcare",
+                    "escai-codeconstruct-dontcare",
+                    "attraction-name-dontcare"
+                ]
+            }
+        }
+    },
+    "ESCAI40.json": {
+        "domain": "escai",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-codeconstruct-code"
+                ]
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-music",
+                    "escai-codeconstruct-code",
+                    "attraction-type-music"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-instrumental",
+                    "escai-instrument-instrumental",
+                    "attraction-type-instrumental"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": []
+            },
+            "11": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "escai-genre-jazzand south",
+                    "attraction-area-south",
+                    "attraction-name-jazzand south"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "escai-codeconstruct-code",
+                    "attraction-area-south"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "escai-instrument-instrumental"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "escai-genre-drum",
+                    "attraction-area-south",
+                    "attraction-name-DUBSTEP"
+                ]
+            },
+            "21": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "23": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "28": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "29": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "30": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "31": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "32": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "33": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "34": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "35": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "36": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "37": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "38": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "39": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "40": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "escai-genre-bass",
+                    "attraction-area-south",
+                    "attraction-type-bass"
+                ]
+            },
+            "41": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "42": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "43": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "44": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "45": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "46": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "47": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "48": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-instrument"
+                ]
+            },
+            "49": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-instrument"
+                ]
+            },
+            "50": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad"
+                ]
+            },
+            "51": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad"
+                ]
+            },
+            "52": {
+                "turn_belief": [
+                    "escai-instrument-instrumental",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-instrument"
+                ]
+            },
+            "53": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "escai-genre-instrument",
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-instrument"
+                ]
+            },
+            "54": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-instrument"
+                ]
+            }
+        }
+    }
+}

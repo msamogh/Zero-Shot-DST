@@ -1,0 +1,2519 @@
+{
+    "ESCAI0.json": {
+        "domain": "attraction",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "10": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "11": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "14": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-yg's"
+                ]
+            },
+            "15": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "17": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "18": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "19": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-architecture"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-type-architecture"
+                ]
+            },
+            "23": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-type-architecture"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-name-ygyne's",
+                    "attraction-type-architecture"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-name-yg's sounds",
+                    "attraction-type-architecture"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-name-ygynedonesian",
+                    "attraction-type-architecture"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-type-architecture"
+                ]
+            },
+            "28": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-name-yg's sounds",
+                    "attraction-type-architecture"
+                ]
+            },
+            "29": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-name-ciara",
+                    "attraction-type-architecture"
+                ]
+            },
+            "30": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-architecture"
+                ]
+            },
+            "31": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": []
+            },
+            "32": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": []
+            },
+            "33": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": []
+            },
+            "34": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": []
+            },
+            "35": {
+                "turn_belief": [
+                    "attraction-type-architecture"
+                ],
+                "pred_belief": []
+            },
+            "36": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "37": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "38": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "39": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "40": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "41": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "42": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "43": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "44": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "45": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "46": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "47": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            },
+            "48": {
+                "turn_belief": [
+                    "attraction-type-architecture",
+                    "attraction-area-uptown"
+                ],
+                "pred_belief": []
+            }
+        }
+    },
+    "ESCAI1.json": {
+        "domain": "attraction",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-area-west"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-type-music"
+                ]
+            }
+        }
+    },
+    "ESCAI2.json": {
+        "domain": "attraction",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "5": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "7": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "9": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "10": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "11": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "12": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "13": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "14": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "15": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "16": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-west",
+                    "attraction-name-emojis"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "20": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": []
+            },
+            "21": {
+                "turn_belief": [
+                    "attraction-area-west"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "23": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "28": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "29": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "30": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "31": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "32": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "33": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "34": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "35": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "36": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "37": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "38": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "39": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "40": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "41": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "42": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "43": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "44": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "45": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "46": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "47": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "48": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "49": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "50": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "51": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "52": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "53": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "54": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "55": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "56": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "57": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "58": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "59": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "60": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "61": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "62": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "63": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "64": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "65": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "66": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "67": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "68": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "69": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "70": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "71": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "72": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "73": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "74": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "75": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "76": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "77": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "78": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "79": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "80": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "81": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "82": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "83": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "84": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "85": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "86": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "87": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "88": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "89": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "90": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "91": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "92": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "93": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "94": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "95": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "96": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "97": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "98": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "99": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "100": {
+                "turn_belief": [
+                    "attraction-area-west",
+                    "attraction-type-nightclub"
+                ],
+                "pred_belief": [
+                    "attraction-area-centre",
+                    "attraction-type-nightclub"
+                ]
+            }
+        }
+    },
+    "ESCAI4.json": {
+        "domain": "attraction",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-area-centre"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "10": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-epic"
+                ]
+            },
+            "11": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "12": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "13": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "14": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "15": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "16": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "17": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "18": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "19": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "20": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "21": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "22": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare",
+                    "attraction-type-games"
+                ]
+            },
+            "23": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "24": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "25": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "26": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "27": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "28": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "29": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "30": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "31": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "32": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "33": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "34": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "35": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "36": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "37": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "38": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "39": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "40": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "41": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "42": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "43": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "44": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "45": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "46": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "47": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "48": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "49": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "50": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "51": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "52": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "53": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "54": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "55": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "56": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "57": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "58": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "59": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "60": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "61": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "62": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "63": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "64": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "65": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "66": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "67": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "68": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "69": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "70": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "71": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "72": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "73": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "74": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2"
+                ]
+            },
+            "75": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "76": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-dontcare"
+                ]
+            },
+            "77": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "78": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "79": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "80": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "81": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "82": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "83": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "84": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "85": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "86": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "87": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "88": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "89": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "90": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "91": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "92": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "93": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "94": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "95": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "96": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-dontcare",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "97": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            },
+            "98": {
+                "turn_belief": [
+                    "attraction-type-swimming pool"
+                ],
+                "pred_belief": [
+                    "attraction-name-runner 2",
+                    "attraction-type-swimmingpool"
+                ]
+            }
+        }
+    },
+    "ESCAI5.json": {
+        "domain": "attraction",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-music"
+                ]
+            },
+            "9": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "attraction-type-college"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-type-college"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-jazzand south",
+                    "attraction-type-college"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "attraction-type-college"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "21": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "23": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "28": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "29": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "30": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "31": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "32": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-nightclub"
+                ]
+            },
+            "33": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "34": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "35": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "36": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "37": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "38": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "39": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "40": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-architecture"
+                ]
+            },
+            "41": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "42": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "43": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "44": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "45": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "46": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "47": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-type-college"
+                ]
+            },
+            "48": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "49": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-college"
+                ]
+            },
+            "50": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad"
+                ]
+            },
+            "51": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-college"
+                ]
+            },
+            "52": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south",
+                    "attraction-name-dubpad",
+                    "attraction-type-college"
+                ]
+            },
+            "53": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            },
+            "54": {
+                "turn_belief": [
+                    "attraction-type-college",
+                    "attraction-area-south"
+                ],
+                "pred_belief": [
+                    "attraction-area-south"
+                ]
+            }
+        }
+    }
+}

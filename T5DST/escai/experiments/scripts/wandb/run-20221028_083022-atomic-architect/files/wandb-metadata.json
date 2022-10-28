@@ -1,0 +1,32 @@
+{
+    "os": "Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-10-28T12:30:22.732389",
+    "startedAt": "2022-10-28T12:30:22.204584",
+    "docker": null,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [
+        "--wandb_run_id",
+        "atomic-architect",
+        "--input_file",
+        "/home/amogh.mannekote/myblue/Zero-Shot-DST/T5DST/escai/data/omnibus.xlsx",
+        "--output_file",
+        "../data/escai_dials.json",
+        "--keep_only_annotated_dials",
+        "--keep_only_session_ids",
+        "573391,573409,573411,575553,575571,575577",
+        "--replace_escai_with_multiwoz"
+    ],
+    "state": "running",
+    "program": "/home/amogh.mannekote/myblue/Zero-Shot-DST/T5DST/escai/create_cai_data.py",
+    "git": {
+        "remote": "https://github.com/msamogh/Zero-Shot-DST.git",
+        "commit": "022bbc720882a6a0a9ef236144eee52224828a84"
+    },
+    "email": "msamogh@gmail.com",
+    "root": "/blue/boyer/amogh.mannekote/Zero-Shot-DST",
+    "host": "login5.ufhpc",
+    "username": "amogh.mannekote",
+    "executable": "/home/amogh.mannekote/myblue/woz/cai-nlp/venv/bin/python"
+}

@@ -1,0 +1,28 @@
+{
+    "os": "Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-10-28T14:09:48.845406",
+    "startedAt": "2022-10-28T14:09:48.376600",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 8,
+    "cpu_count": 128,
+    "cuda": null,
+    "args": [
+        "--wandb_run_id",
+        "strong-luminosity",
+        "--input_file",
+        "/home/amogh.mannekote/myblue/Zero-Shot-DST/T5DST/escai/data/omnibus.xlsx",
+        "--output_file",
+        "../data/escai_dials.json",
+        "--keep_only_annotated_dials",
+        "--keep_only_session_ids",
+        "573391,573409,573411,575553,575571,575577",
+        "--replace_escai_with_multiwoz"
+    ],
+    "state": "running",
+    "program": "/home/amogh.mannekote/myblue/Zero-Shot-DST/T5DST/escai/create_cai_data.py",
+    "host": "c0800a-s23.ufhpc",
+    "username": "amogh.mannekote",
+    "executable": "/home/amogh.mannekote/myblue/woz/cai-nlp/venv/bin/python"
+}
