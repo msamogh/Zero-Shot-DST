@@ -1,0 +1,28 @@
+{
+    "escai-genre": {
+        "name": "attraction-area",
+        "values": {
+            "rock": "cambridge",
+            "pop": "centre",
+            "edm": "east",
+            "funk": "west",
+            "kpop": "north",
+            "dubstep": "south",
+            "any": "dontcare",
+            "trap": "uptown",
+            "gospel": "downtown"
+        }
+    },
+    "escai-instrument": {
+        "name": "attraction-type",
+        "values": {
+            "guitar": "museum",
+            "violin": "entertainment",
+            "any": "do n't care",
+            "instrumental": "college",
+            "drums": "nightclub",
+            "piano": "swimming pool",
+            "bass": "architecture"
+        }
+    }
+}

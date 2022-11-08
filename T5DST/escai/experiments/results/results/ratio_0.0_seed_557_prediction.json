@@ -1,0 +1,2476 @@
+{
+    "NegoChat-7.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-8 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Leased Car-With leased car"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-80.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            }
+        }
+    },
+    "NegoChat-95.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-45.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "21": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "23": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-55.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-57.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Working Hours-8 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-56.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "4": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "5": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "6": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "7": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "8": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": []
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-120,000 USD"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-120,000 USD"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-120,000 USD"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-120,000 USD"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-120,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-21.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-92.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Team Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-19.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-No agreement",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Working Hours-8 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Working Hours-8 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-8 hours",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-0.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "2": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            }
+        }
+    },
+    "NegoChat-91.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "21": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "23": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "24": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "25": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "26": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "27": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "28": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "29": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "30": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "31": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Working Hours-9 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "32": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Working Hours-9 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-77.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "10": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "11": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Team Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "12": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Team Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "13": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Team Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "14": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "15": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "16": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "17": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-10 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-10 hours",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "18": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-10 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-10 hours",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "19": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-10 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-10 hours",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "20": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-10 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "21": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-10 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            },
+            "22": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-10 hours",
+                    "NegoChat-Pension Fund-10%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-60,000 USD"
+                ]
+            }
+        }
+    },
+    "NegoChat-30.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Working Hours-9 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Working Hours-9 hours",
+                    "NegoChat-Pension Fund-20%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-38.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Team Manager",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            }
+        }
+    },
+    "NegoChat-78.json": {
+        "domain": "NegoChat",
+        "turns": {
+            "0": {
+                "turn_belief": [],
+                "pred_belief": []
+            },
+            "1": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "2": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "3": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "4": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Pension Fund-10%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Salary-60,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "5": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Pension Fund-10%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "6": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Pension Fund-10%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD"
+                ]
+            },
+            "7": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Pension Fund-10%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "8": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Pension Fund-10%"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Programmer",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-Without leased car"
+                ]
+            },
+            "9": {
+                "turn_belief": [
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Pension Fund-10%",
+                    "NegoChat-Leased Car-With leased car",
+                    "NegoChat-Working Hours-8 hours"
+                ],
+                "pred_belief": [
+                    "NegoChat-Job Description-Project Manager",
+                    "NegoChat-Promotion Possibilities-Fast promotion track",
+                    "NegoChat-Salary-90,000 USD",
+                    "NegoChat-Leased Car-With leased car"
+                ]
+            }
+        }
+    }
+}

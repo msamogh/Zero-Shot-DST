@@ -1,0 +1,8 @@
+~/myblue/woz/cai-nlp/venv/bin/python T5.py \
+    --mode predict \
+    --GPU 1 \
+    --slot_lang slottype \
+    --ckpt_path save/t5-41000 \
+    --only_domain attraction \
+    --speaker_label_strategy union \
+    --predict_input_file ../data/escai_dials.json
