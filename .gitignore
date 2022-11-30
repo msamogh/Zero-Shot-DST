@@ -1,0 +1,16 @@
+.cache/
+.config
+.convokit
+.keras/
+.nv/
+checkpoints/
+
+.bash_history
+.python_history
+.netrc
+
+*.pyc
+*.ckpt
+**/wandb
+
+dialogues/multiwoz/

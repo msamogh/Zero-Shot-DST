@@ -1,0 +1,64 @@
+{
+       "_id": "utterance_14282",
+       "_owner": "<convokit.model.corpus.Corpus object at 0x2b636c91d5b0>",
+       "_speaker_ids": "None",
+       "_utterance_ids": [
+              "utterance_14282",
+              "utterance_14283",
+              "utterance_14284",
+              "utterance_14285",
+              "utterance_14286",
+              "utterance_14287",
+              "utterance_14288",
+              "utterance_14289",
+              "utterance_14290",
+              "utterance_14291",
+              "utterance_14292",
+              "utterance_14293",
+              "utterance_14294",
+              "utterance_14295",
+              "utterance_14296"
+       ],
+       "meta": {
+              "dialogue_id": 1029,
+              "participant_info": {
+                     "mturk_agent_1": {
+                            "outcomes": {
+                                   "opponent_likeness": "Slightly like",
+                                   "points_scored": 18,
+                                   "satisfaction": "Slightly satisfied"
+                            },
+                            "value2issue": {
+                                   "High": "Food",
+                                   "Low": "Firewood",
+                                   "Medium": "Water"
+                            },
+                            "value2reason": {
+                                   "High": "My really want to bring my young nephew on his first camp trip and kids can eat everything in sight if you let them.",
+                                   "Low": "I want to give my nephew the full camping experience so extra firewood for teachable moments would help.",
+                                   "Medium": "I google the weather and its going to blazing hot while we"re camping. Water is a going to be a live safer."
+                            }
+                     },
+                     "mturk_agent_2": {
+                            "outcomes": {
+                                   "opponent_likeness": "Extremely like",
+                                   "points_scored": 21,
+                                   "satisfaction": "Extremely satisfied"
+                            },
+                            "value2issue": {
+                                   "High": "Water",
+                                   "Low": "Firewood",
+                                   "Medium": "Food"
+                            },
+                            "value2reason": {
+                                   "High": "Water will be the first thing to run out and I take medicine, I have dry mouth a lot. So I'm going to need more water.",
+                                   "Low": "I'm not a camper though I enjoy it, So I will need more firewood. otherwise I will be cold.",
+                                   "Medium": "Food won't last long. And I'm not good at hunting or fishing so I'll need more food as well."
+                            }
+                     }
+              }
+       },
+       "obj_type": "conversation",
+       "tree": null,
+       "vectors": []
+}

@@ -1,0 +1,30 @@
+{
+    "negochat-Working Hours": [
+        "8 hours",
+        "10 hours",
+        "9 hours"
+    ],
+    "negochat-Pension Fund": [
+        "10%",
+        "20%"
+    ],
+    "negochat-Job Description": [
+        "Programmer",
+        "Team Manager",
+        "Project Manager"
+    ],
+    "negochat-Promotion Possibilities": [
+        "Slow promotion track",
+        "Fast promotion track"
+    ],
+    "negochat-Salary": [
+        "90,000 USD",
+        "60,000 USD",
+        "120,000 USD"
+    ],
+    "negochat-Leased Car": [
+        "With leased car",
+        "Without leased car",
+        "No agreement"
+    ]
+}
