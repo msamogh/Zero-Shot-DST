@@ -28,6 +28,59 @@ class DST_Seq2Seq(pl.LightningModule):
         self.clf = torch.nn.Linear(self.model.config.d_model, 1)
         self.save_hyperparameters(ignore=["model"])
 
+    def old_loss_fn(self, batch):
+        output = self.model(
+            input_ids=batch["encoder_input"],
+            attention_mask=batch["attention_mask"],
+            labels=batch["decoder_output"],
+            output_hidden_states=True,
+            return_dict=True,
+        )
+        output_2 = self.model(
+            input_ids=batch["input_and_output_input_ids"],
+            attention_mask=batch["input_and_output_attention_mask"],
+            labels=batch["decoder_output"],
+            output_hidden_states=True,
+            return_dict=True,
+        )
+
+        # debug_str = f"prediction_input: {self.tokenizer.decode(batch['encoder_input'][0])}" \
+        #     + f"prediction_labels: {self.tokenizer.decode(batch['decoder_output'][0])}" \
+        #     + f"contrastive_input: {self.tokenizer.decode(batch['input_and_output_input_ids'][0])}" \
+        #     + f"contrastive_labels: {self.tokenizer.decode(batch['decoder_output'][0])}"
+        # breakpoint()
+
+        hidden_states = output_2["encoder_last_hidden_state"]
+
+        last_non_pad_token = torch.sum(
+            batch["input_and_output_attention_mask"], dim=1
+        ) - 1
+        last_non_pad_token = last_non_pad_token.unsqueeze(1).unsqueeze(2).expand(
+            -1, 1, hidden_states.shape[2]
+        )
+        last_non_pad_token = last_non_pad_token.to(hidden_states.device)
+        last_hidden_state = torch.gather(
+            hidden_states, 1, last_non_pad_token
+        ).squeeze(1)
+
+        # breakpoint()
+        y_pos_sample = torch.sigmoid(self.clf(last_hidden_state))
+        pos_mask = (
+            (~torch.tensor(batch["is_negative_sample"]))
+            .long()
+            .to(batch["encoder_input"])
+        )
+        neg_mask = (
+            torch.tensor(batch["is_negative_sample"]).long().to(batch["encoder_input"])
+        )
+        neg_sampling_loss = -(
+            torch.dot(pos_mask.float(), torch.log(y_pos_sample).flatten())
+            + torch.dot(neg_mask.float(), torch.log(1 - y_pos_sample).flatten())
+        )
+        print(f"lm_loss: {output['loss']}; neg_sampling_loss: {neg_sampling_loss * self.args['ns_loss_fn_weight']}")
+
+        return output["loss"] + self.args["ns_loss_fn_weight"] * neg_sampling_loss
+
     def loss_fn(self, batch):
         output = self.model(
             input_ids=batch["encoder_input"],
@@ -36,20 +89,7 @@ class DST_Seq2Seq(pl.LightningModule):
             output_hidden_states=True,
             return_dict=True,
         )
-
-        hidden_states = output["decoder_hidden_states"]
-        y_pos_sample = F.sigmoid(self.clf(hidden_states[-1][:, -1]))
-        pos_mask = (
-            (~torch.tensor(batch["is_negative_sample"])).long().to(batch["encoder_input"])
-        )
-        neg_mask = (
-            torch.tensor(batch["is_negative_sample"]).long().to(batch["encoder_input"])
-        )
-        neg_sampling_loss = -(torch.sum(pos_mask * torch.log(y_pos_sample)) \
-                            + torch.sum(neg_mask * torch.log(1 - y_pos_sample)))
-        print(f"lm_loss: {output['loss']}; neg_sampling_loss: {neg_sampling_loss}")
-
-        return output["loss"] + neg_sampling_loss
+        return output["loss"]
 
     def training_step(self, batch, batch_idx):
         self.model.train()
@@ -60,19 +100,9 @@ class DST_Seq2Seq(pl.LightningModule):
 
     def validation_step(self, batch, batch_idx):
         self.model.eval()
-        output = self.model(
-            input_ids=batch["encoder_input"],
-            attention_mask=batch["attention_mask"],
-            labels=batch["decoder_output"],
-            return_dict=True,
-        )
+        loss = self.loss_fn(batch)
         del batch
-        loss = output["loss"]
-        del output
         self.log("val/loss", loss, sync_dist=True)
-
-        # Run evaluation
-
         return loss
 
     def configure_optimizers(self):

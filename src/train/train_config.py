@@ -36,6 +36,7 @@ def add_negative_sampling_args(parser):
     parser.add_argument("--ns_hinge_loss_weight", type=float, default=0)
     parser.add_argument("--ns_hinge_loss_margin", type=float, default=0)
     parser.add_argument("--ns_ratio", type=float, default=1)
+    parser.add_argument("--ns_loss_fn_weight", type=float, default=1)
 
 
 def add_decoding_args(parser):

@@ -1,4 +1,6 @@
 import os
+
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 import json
 
 from pytorch_lightning import Trainer, seed_everything
@@ -6,6 +8,7 @@ from pytorch_lightning.plugins import DDPPlugin
 from pytorch_lightning.loggers import WandbLogger
 import numpy as np
 import torch
+torch.use_deterministic_algorithms(False, warn_only=True)
 import pytorch_lightning as pl
 
 torch.cuda.empty_cache()
@@ -14,6 +17,7 @@ from tqdm import tqdm
 import wandb
 
 from train_data_loader import prepare_data
+from prompt_generator import PromptGenerator
 from ontology import Ontology
 from evaluate import evaluate_metrics
 from train_config import get_args
@@ -96,6 +100,93 @@ def generate_ontology_constraints(batch, ontology):
     return constraints
 
 
+def decode_model_output(args, predictions, tokenizer, model, batch, device):
+    prev_dialogue_state = {}
+    if batch["ID"][0] in predictions and batch["turn_id"][0] > 0:
+        prev_dialogue_state = predictions[batch["ID"][0]]["turns"][batch["turn_id"][0] - 1]["pred_belief"]
+
+    input_ids, attention_mask = PromptGenerator.prepend_dialogue_history(
+        tokenizer,
+        batch["encoder_input"],
+        batch["attention_mask"],
+        prev_dialogue_state
+    )
+
+    return tokenizer.batch_decode(
+        model.generate(
+            input_ids=input_ids.to(device),
+            attention_mask=attention_mask.to(device),
+            eos_token_id=tokenizer.eos_token_id,
+            max_length=200,
+            num_beams=args["num_beams"],
+        ),
+        skip_special_tokens=True,
+    )
+
+
+def initialize_prediction_dict(predictions, batch, idx):
+    dial_id = batch["ID"][idx]
+    if dial_id not in predictions:
+        predictions[dial_id] = {
+            "domains": batch["domains"][idx][0],
+            "turns": {},
+        }
+    if batch["turn_id"][idx] not in predictions[dial_id]["turns"]:
+        predictions[dial_id]["turns"][batch["turn_id"][idx]] = {
+            "input_text": {},
+            "turn_belief": batch["turn_belief"][idx],
+            "pred_belief": {},
+        }
+
+
+def populate_value(predictions, batch, idx, value):
+    dial_id = batch["ID"][idx]
+    if value != "none":
+        predictions[dial_id]["turns"][batch["turn_id"][idx]]["pred_belief"][
+            str(batch["slot_text"][idx])
+        ] = str(value)
+        predictions[dial_id]["turns"][batch["turn_id"][idx]]["input_text"][
+            str(batch["slot_text"][idx])
+        ] = batch["input_text"][idx]
+
+
+def evaluate_model_2(
+    args, tokenizer, model, test_loader, save_path, ontology, prefix="zeroshot"
+):
+    create_dir_if_not_exists(save_path)
+
+    device = torch.device("cuda:0")
+    model.to(device)
+    model.eval()
+
+    predictions = dict()
+    for sample in tqdm([sample for sample in test_loader if sample["for_evaluation"]]):
+        batch_prediction = decode_model_output(
+            args, predictions, tokenizer, model, sample, device
+        )
+        for idx, value in enumerate(batch_prediction):
+            initialize_prediction_dict(predictions, sample, idx)
+            populate_value(predictions, sample, idx, value)
+
+    joint_acc_score, F1_score, turn_acc_score = evaluate_metrics(predictions, ontology)
+    evaluation_metrics = {
+        "JointAcc": joint_acc_score,
+        "TurnAcc": turn_acc_score,
+        "JointF1": F1_score,
+    }
+    with open(os.path.join(save_path, f"{prefix}_prediction.json"), "w") as f:
+        json.dump(predictions, f, indent=4)
+    with open(os.path.join(save_path, f"{prefix}_result.json"), "w") as f:
+        wandb.log(evaluation_metrics)
+        json.dump(evaluation_metrics, f, indent=4)
+    return predictions, evaluation_metrics
+
+
+def create_dir_if_not_exists(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+
 def evaluate_model(
     args, tokenizer, model, test_loader, save_path, ontology, prefix="zeroshot"
 ):
@@ -139,7 +230,6 @@ def evaluate_model(
         # )
         # top_k_value_batch = tokenizer.batch_decode(top_k_model_output, skip_special_tokens=True)
         # # print(args["top_k"])
-        # # breakpoint()
         # if len(top_k_value_batch) == args["top_k"] * test_loader.batch_size:
         #     top_k_generations = np.array(top_k_value_batch).reshape(test_loader.batch_size, -1)
 
@@ -190,7 +280,6 @@ def evaluate_model(
                 }
 
             if batch["turn_id"][idx] not in predictions[dial_id]["turns"]:
-                # breakpoint()
                 predictions[dial_id]["turns"][batch["turn_id"][idx]] = {
                     "input_text": {},
                     "turn_belief": batch["turn_belief"][idx],
@@ -252,7 +341,7 @@ def get_trainer(args, save_path):
     return Trainer(
         num_sanity_val_steps=1,
         log_every_n_steps=5,
-        val_check_interval=0.25,
+        val_check_interval=0.75,
         default_root_dir=save_path,
         # logger=wandb_logger,
         accumulate_grad_batches=args["gradient_accumulation_steps"],
@@ -262,15 +351,15 @@ def get_trainer(args, save_path):
             periodic_checkpoint_callback,
             pl.callbacks.EarlyStopping(
                 monitor="val/loss",
-                min_delta=0.00,
-                patience=5,
-                verbose=False,
+                min_delta=0.10,
+                patience=3,
+                verbose=True,
                 strict=False,
                 mode="min",
             ),
         ],
         devices=args["GPU"],
-        deterministic=True,
+        deterministic=False,
         num_nodes=1,
         strategy="ddp",
         precision=int(args["precision"]),
@@ -283,25 +372,20 @@ def predict(args, sub_version=""):
     args = vars(args)
     seed_everything(args["seed"])
 
-    # Model and tokenizer
     model, tokenizer = train_utils.get_model_and_tokenizer(args)
-
-    # Ontology
     ontology = Ontology.from_files(
         args["dataset"], args["ontology_path"], args["slot_descriptions_path"]
     )
-
-    # Data
     test_loader = prepare_data(
         args,
         tokenizer,
         ontology,
         dials_path=args["path_predict"] + sub_version,
-        batch_size=args["predict_batch_size"],
+        batch_size=1,
+        shuffle=False,
+        is_training_split=False,
     )
-
-    # Evaluate
-    predictions, _ = evaluate_model(
+    predictions, _ = evaluate_model_2(
         args,
         tokenizer,
         model,
@@ -310,6 +394,15 @@ def predict(args, sub_version=""):
         ontology,
         prefix=args["wandb_run_id"],
     )
+    # predictions, _ = evaluate_model_2(
+    #     args,
+    #     tokenizer,
+    #     model,
+    #     test_loader,
+    #     args["predictions_output_path"],
+    #     ontology,
+    #     prefix=args["wandb_run_id"],
+    # )
     return predictions
 
 
@@ -317,7 +410,6 @@ if __name__ == "__main__":
     args = get_args()
     if not args.disable_wandb:
         wandb.init(
-            resume=True,
             id=args.wandb_run_id,
             project="collaborative-dst",
             entity="msamogh",
@@ -329,20 +421,4 @@ if __name__ == "__main__":
     elif args.mode == "finetune":
         train(args)
     elif args.mode == "predict":
-        if args.baseline:
-            predict(args)
-        else:
-            if args.speaker_label_strategy == "union":
-                args.predict_input_file = args.predict_input_file + "_1"
-                _, metrics_1 = predict(args)
-                args.predict_input_file = args.predict_input_file + "_2"
-                _, metrics_2 = predict(args)
-
-            elif args.speaker_label_strategy == "intersection":
-                args.predict_input_file = args.predict_input_file + "_1"
-                predictions_1, _ = predict(args)
-                args.predict_input_file = args.predict_input_file + "_2"
-                predictions_2, _ = predict(args)
-                predictions = []
-            else:
-                predict(args)
+        predict(args)

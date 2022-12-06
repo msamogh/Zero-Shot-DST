@@ -1,7 +1,7 @@
 from typing import *
 from dataclasses import dataclass
 import random
-
+import torch
 
 @dataclass
 class InputOutputPair:
@@ -40,8 +40,23 @@ class PromptGenerator(object):
     ontology: Any
     tokenizer: Any
     is_training_split: bool
-    include_previous_state: bool = False
+    include_previous_state: bool = True
     max_history: Optional[int] = None
+
+    @staticmethod
+    def prepend_dialogue_history(tokenizer, input_ids, attention_mask, prev_dialogue_state):
+        ds_str = PromptGenerator.dialogue_state_to_str(prev_dialogue_state) + " " + tokenizer.sep_token + " "
+        encoded = tokenizer(
+            ds_str,
+            return_tensors="pt",
+            add_special_tokens=False,
+            return_attention_mask=True
+        )
+        # breakpoint()
+        input_ids = torch.cat([encoded["input_ids"], input_ids], dim=1).int()
+        attention_mask = torch.cat([encoded["attention_mask"], attention_mask], dim=1).int()
+        return input_ids, attention_mask
+
 
     def stringify_dialogue_history(self, turns):
         dialogue_history_str = ""
@@ -57,24 +72,36 @@ class PromptGenerator(object):
         context = self.get_context(
             turn_idx, all_turns, prev_dialogue_state=prev_dialogue_state
         )
-        slot_names, slots_c, questions, answers, wrong_answers = self.get_qas_over_ontology(
-            all_turns, turn_idx
-        )
+        (
+            slot_names,
+            slots_c,
+            questions,
+            answers,
+            wrong_answers,
+        ) = self.get_qas_over_ontology(all_turns, turn_idx)
 
         if self.args["verbose"]:
-            for question, answer in zip(questions, answers):
-                print(f'positive')
-                print(f'input_text: {(context + question).replace("  ", " ").strip()}')
-                print(f'output_text: {answer.replace("  ", " ").strip()}')
-            for question, wrong_answer in zip(questions, wrong_answers):
-                print('negative')
-                print(f'input_text: {(context + question).replace("  ", " ").strip()}')
-                print(f'output_text: {wrong_answer.replace("  ", " ").strip()}')
+            with open("output", "a+") as f:
+                for question, answer in zip(questions, answers):
+                    f.write(f"positive {dial_id}-{turn_idx}:")
+                    f.write(
+                        f'input_text: {(context + question).replace("  ", " ")}'
+                    )
+                    f.write(f'output_text: {answer.replace("  ", " ")}')
+                    f.write("\n")
+                # for question, wrong_answer in zip(questions, wrong_answers):
+                #     f.write(f"negative {dial_id}-{turn_idx}")
+                #     f.write(
+                #         f'input_text: {(context + question).replace("  ", " ")}'
+                #     )
+                #     f.write(f'output_text: {wrong_answer.replace("  ", " ")}')
+                #     f.write("\n")
 
         pos_samples = [
             InputOutputPair(
                 input_text=(context + question).replace("  ", " ").strip(),
                 output_text=answer.replace("  ", " ").strip()
+                + " "
                 + self.tokenizer.eos_token,
                 is_negative_sample=False,
                 id=dial_id,
@@ -96,6 +123,7 @@ class PromptGenerator(object):
                 InputOutputPair(
                     input_text=(context + question).replace("  ", " ").strip(),
                     output_text=wrong_answer.replace("  ", " ").strip()
+                    + " "
                     + self.tokenizer.eos_token,
                     is_negative_sample=True,
                     id=dial_id,
@@ -115,7 +143,7 @@ class PromptGenerator(object):
             neg_samples = random.sample(neg_samples, num_negative_samples)
 
             return pos_samples + neg_samples
-        
+
         return pos_samples
 
     def generate_samples_for_entire_dialogue(self, dial_id, domains, all_turns):
@@ -131,19 +159,22 @@ class PromptGenerator(object):
 
     def get_context(self, turn_idx, all_turns, prev_dialogue_state=None):
         context = ""
-        if self.include_previous_state and turn_idx > 0:
+
+        if self.include_previous_state and turn_idx > self.max_history:
             if self.is_training_split:
-                assert prev_dialogue_state is None
+                # assert prev_dialogue_state is None
                 prev_dialogue_state = self.dialogue_state_for_turn(
-                    all_turns, turn_idx - 1
+                    all_turns, turn_idx - self.max_history
+                )
+                context += (
+                    PromptGenerator.dialogue_state_to_str(prev_dialogue_state)
+                    + self.tokenizer.sep_token
+                    + " "
                 )
             else:
-                assert prev_dialogue_state is not None
-            context += (
-                PromptGenerator.dialogue_state_to_str(prev_dialogue_state)
-                + self.tokenizer.sep_token
-                + " "
-            )
+                pass
+                # assert prev_dialogue_state is not None
+
         context += self.stringify_dialogue_history(all_turns[: turn_idx + 1])
         return context
 
@@ -155,6 +186,9 @@ class PromptGenerator(object):
 
     def get_wrong_answer(self, all_turns, turn_idx, slot_name):
         raise NotImplementedError
+
+    def get_gibberish(self):
+        return "fcnoisnfiods"
 
     def dialogue_state_for_turn(self, all_turns, turn_idx):
         return {
@@ -168,7 +202,7 @@ class PromptGenerator(object):
         random.shuffle(dialogue_state_items)
         return " ".join(
             [
-                f" {slot_name} = {value} ; "
+                f" {slot_name[slot_name.index('-') + 1:]} = {value} ; "
                 for slot_name, value in dialogue_state_items
                 if value != "none"
             ]
@@ -176,13 +210,7 @@ class PromptGenerator(object):
 
     def get_qas_over_ontology(self, all_turns, turn_idx):
         turn = all_turns[turn_idx]
-        slot_names, slots_c, questions, answers, wrong_answers = (
-            [],
-            [],
-            [],
-            [],
-            []
-        )
+        slot_names, slots_c, questions, answers, wrong_answers = ([], [], [], [], [])
         for slot_name in self.ontology.slots.keys():
             slot_a, slot_b, slot_c = (
                 turn["state"]["slot_values_a"],
@@ -200,6 +228,7 @@ class PromptGenerator(object):
             question = self.get_question(all_turns, turn_idx, slot_name)
             answer = self.get_answer(all_turns, turn_idx, slot_name)
             wrong_answer = self.get_wrong_answer(all_turns, turn_idx, slot_name)
+            # wrong_answer = self.get_gibberish()
 
             if question is None or answer is None:
                 continue
@@ -225,14 +254,14 @@ class IndividualPreferences(PromptGenerator):
         turn = all_turns[turn_idx]
         slot_description = self.ontology.descriptions[slot_name]["naive"].lower()
         if self.speaker == "speaker_1":
-            return f" What does speaker_1 want for {slot_description} ? "
+            return f" What does speaker_1 agree on for {slot_description} ? "
         elif self.speaker == "speaker_2":
             return (
-                f" What does speaker_1 want for {slot_description} ? "
+                f" What does speaker_1 agree on for {slot_description} ? "
                 + turn["state"]["slot_values_a"].get(slot_name, "none")
                 + " "
                 + self.tokenizer.sep_token
-                + f" What does speaker_2 want for {slot_description} ? "
+                + f" What does speaker_2 agree on for {slot_description} ? "
             )
 
     def get_answer(self, all_turns, turn_idx, slot_name):
@@ -244,10 +273,14 @@ class IndividualPreferences(PromptGenerator):
 
     def get_wrong_answer(self, all_turns, turn_idx, slot_name):
         turn = all_turns[turn_idx]
+        right_answer = self.get_answer(all_turns, turn_idx, slot_name)
         if self.speaker == "speaker_1":
-            return turn["state"]["slot_values_b"].get(slot_name, "none")
+            wrong_answer = turn["state"]["slot_values_b"].get(slot_name, "none")
         elif self.speaker == "speaker_2":
-            return turn["state"]["slot_values_a"].get(slot_name, "none")
+            wrong_answer = turn["state"]["slot_values_a"].get(slot_name, "none")
+        if wrong_answer == right_answer:
+            wrong_answer = random.choice(self.ontology.slots[slot_name])
+        return wrong_answer
 
     def is_for_evaluation(self):
         return False
@@ -258,11 +291,11 @@ class JointPreferences(PromptGenerator):
         turn = all_turns[turn_idx]
         slot_description = self.ontology.descriptions[slot_name]["naive"].lower()
         return (
-            f" What does speaker_1 want for {slot_description} ? "
+            f" What does speaker_1 agree on for {slot_description} ? "
             + turn["state"]["slot_values_a"].get(slot_name, "none")
             + " "
             + self.tokenizer.sep_token
-            + f" What does speaker_2 want for {slot_description} ? "
+            + f" What does speaker_2 agree on for {slot_description} ? "
             + turn["state"]["slot_values_b"].get(slot_name, "none")
             + " "
             + self.tokenizer.sep_token
@@ -275,10 +308,14 @@ class JointPreferences(PromptGenerator):
 
     def get_wrong_answer(self, all_turns, turn_idx, slot_name):
         turn = all_turns[turn_idx]
+        right_answer = self.get_answer(all_turns, turn_idx, slot_name)
         if random.random() < 0.5:
-            return turn["state"]["slot_values_a"].get(slot_name, "none")
+            wrong_answer = turn["state"]["slot_values_a"].get(slot_name, "none")
         else:
-            return turn["state"]["slot_values_b"].get(slot_name, "none")
+            wrong_answer = turn["state"]["slot_values_b"].get(slot_name, "none")
+        if wrong_answer == right_answer:
+            wrong_answer = random.choice(self.ontology.slots[slot_name])
+        return wrong_answer
 
     def is_for_evaluation(self):
         return True
@@ -288,7 +325,7 @@ class NaiveQuestion(PromptGenerator):
     def get_question(self, all_turns, turn_idx, slot_name):
         turn = all_turns[turn_idx]
         slot_description = self.ontology.descriptions[slot_name]["naive"].lower()
-        return f" What do speaker_1 and speaker_2 want for {slot_description} ? "
+        return f" What do speaker_1 and speaker_2 agree on for {slot_description} ? "
 
     def get_answer(self, all_turns, turn_idx, slot_name):
         turn = all_turns[turn_idx]
@@ -296,10 +333,46 @@ class NaiveQuestion(PromptGenerator):
 
     def get_wrong_answer(self, all_turns, turn_idx, slot_name):
         turn = all_turns[turn_idx]
+        right_answer = self.get_answer(all_turns, turn_idx, slot_name)
         if random.random() < 0.5:
-            return turn["state"]["slot_values_a"].get(slot_name, "none")
+            wrong_answer = turn["state"]["slot_values_a"].get(slot_name, "none")
         else:
-            return turn["state"]["slot_values_b"].get(slot_name, "none")
+            wrong_answer = turn["state"]["slot_values_b"].get(slot_name, "none")
+        # make sure both of them aren't equal to none
+        if wrong_answer == right_answer:
+            wrong_answer = random.choice(self.ontology.slots[slot_name])
+        return wrong_answer
 
     def is_for_evaluation(self):
         return True
+
+
+class PositiveContrastiveQuestion(PromptGenerator):
+    def get_question(self, all_turns, turn_idx, slot_name):
+        turn = all_turns[turn_idx]
+        slot_description = self.ontology.descriptions[slot_name]["naive"].lower()
+        slot_value = turn["state"]["slot_values"].get(slot_name, "none")
+        return f" Do speaker_1 and speaker_2 agree that {slot_description} should be {slot_value} ? "
+
+    def get_answer(self, all_turns, turn_idx, slot_name):
+        return " yes "
+
+    def is_for_evaluation(self):
+        return False
+
+
+class NegativeContrastiveQuestion(PromptGenerator):
+    def get_question(self, all_turns, turn_idx, slot_name):
+        turn = all_turns[turn_idx]
+        slot_description = self.ontology.descriptions[slot_name]["naive"].lower()
+        if random.random() < 0.5:
+            wrong_slot_value = turn["state"]["slot_values_a"].get(slot_name, "none")
+        else:
+            wrong_slot_value = turn["state"]["slot_values_b"].get(slot_name, "none")
+        return f" Do speaker_1 and speaker_2 agree that {slot_description} should be {wrong_slot_value} ? "
+
+    def get_answer(self, all_turns, turn_idx, slot_name):
+        return " no "
+
+    def is_for_evaluation(self):
+        return False
