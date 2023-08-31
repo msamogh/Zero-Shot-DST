@@ -1,0 +1,36 @@
+command:
+- /blue/boyer/amogh.mannekote/Zero-Shot-DST/Instructdial/venv/bin/python
+- src/summary.py
+
+metric:
+  goal: maximize
+  name: final_val_acc 
+
+method: bayes
+
+parameters:
+  none_prob:
+    distribution: categorical
+    values: [0.4]
+  
+  ctx_window_size:  
+    distribution: categorical
+    values: [2]
+
+  max_train_epochs:
+    distribution: categorical
+    values: [20]
+
+  seed:
+    distribution: categorical
+    values: [42]
+
+  train_split_n:
+    values: [20, 50, 80, 100, 200]
+
+  train_data:
+    values:
+      - proposals_A_0_proposals_B_0_partial_rejections_A_3_partial_rejections_B_0_partial_accepts_A_3_partial_accepts_B_0
+
+  evaluate_all_dfs:
+    values: [False]
