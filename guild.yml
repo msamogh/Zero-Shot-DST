@@ -1,0 +1,31 @@
+fine_tune:
+  main: train/train
+  flags-dest: args
+  flags-import: all
+  sourcecode:
+    root: src/
+  flags:
+    mode: finetune
+    dataset: negochat
+    finetune_n_samples: 50
+    wandb_run_id: null
+    finetune_from_ckpt: null
+    n_epochs: null
+    max_history: null
+    num_beams: null
+    saving_dir: null
+    GPU: null
+    ontology_path: null
+    slot_descriptions_path: null
+    train_batch_size: null
+    do_sample: null
+  requires:
+    - file: dialogues/negochat
+      target-type: copy
+      target-path: dialogues
+    - file: ontology/negochat
+      target-type: copy
+      target-path: ontology
+    - file: guild_scripts/fine_tune.sh
+      target-type: copy
+      target-path: guild_scripts

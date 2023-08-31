@@ -1,0 +1,60 @@
+{
+    "negochat-Pension Fund": {
+        "description_human_collab": "Percentage of the salary that goes to pension fund agreed upon by both participants",
+        "description_human": "Percentage of the salary that goes to pension fund",
+        "naive": "Percentage of the salary that goes to pension fund",
+        "values": [
+            "10%",
+            "20%"
+        ]
+    },
+    "negochat-Working Hours": {
+        "description_human_collab": "The number of working hours per day agreed upon by both participants",
+        "description_human": "The number of working hours per day",
+        "naive": "the number of hours",
+        "values": [
+            "8 hours",
+            "9 hours",
+            "10 hours"
+        ]
+    },
+    "negochat-Salary": {
+        "description_human_collab": "Salary agreed upon by both participants agreed upon by both participants",
+        "description_human": "Salary agreed upon by both participants",
+        "naive": "the salary",
+        "values": [
+            "90,000 USD",
+            "120,000 USD",
+            "60,000 USD"
+        ]
+    },
+    "negochat-Promotion Possibilities": {
+        "description_human_collab": "How quickly will the employee be promoted agreed upon by both participants",
+        "description_human": "How quickly will the employee be promoted",
+        "naive": "How quickly the employee will be promoted",
+        "values": [
+            "Fast promotion track",
+            "Slow promotion track"
+        ]
+    },
+    "negochat-Leased Car": {
+        "description_human_collab": "Will the employee get a leased car from the company or not (agreed upon by both participants)?",
+        "description_human": "Will the employee get a leased car from the company or not?",
+        "naive": "Will the employee get a leased car from the company or not?",
+        "values": [
+            "No agreement",
+            "With leased car",
+            "Without leased car"
+        ]
+    },
+    "negochat-Job Description": {
+        "description_human_collab": "The job description agreed upon by both participants",
+        "description_human": "The job description",
+        "naive": "The job description",
+        "values": [
+            "Project Manager",
+            "Programmer",
+            "Team Manager"
+        ]
+    }
+}

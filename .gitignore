@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -138,3 +139,21 @@ data/
 **/wandb/*
 
 latest-run
+=======
+.cache/
+.config
+.convokit
+.keras/
+.nv/
+checkpoints/
+
+.bash_history
+.python_history
+.netrc
+
+*.pyc
+*.ckpt
+**/wandb
+
+dialogues/multiwoz/
+>>>>>>> 26034a033d63428e85cf55f547fd3ab3e337259e
