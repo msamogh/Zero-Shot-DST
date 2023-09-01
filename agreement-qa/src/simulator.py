@@ -1,12 +1,17 @@
 import json
 from pathlib import Path
 from fire import Fire
+from pprint import pprint
 import random
 random.seed(42)
 from typing import List, Tuple, Dict, Union, Set, Optional
 
 from add_agreement_deltas import add_agreement_delta
 from grid_search import grid_search
+
+
+def opp(speaker):
+    return 'A' if speaker == 'B' else 'B'
 
 
 def generate_negotiation_dialogue(
@@ -18,6 +23,7 @@ def generate_negotiation_dialogue(
     partial_rejections_B: Tuple[float, float],
     partial_accepts_A: Tuple[float, float],
     partial_accepts_B: Tuple[float, float],
+    min_dist_between_proposal_and_accept_or_reject: int = 4
 ) -> List[Dict[str, Union[str, List[Tuple[str, Dict[str, str]]]]]]:
     
     def generate_proposals(
@@ -79,7 +85,12 @@ def generate_negotiation_dialogue(
             for slot, value in proposals
         ]
 
-    def get_rejections_for_speaker(turn_id: int, speaker: str, open_proposals: List[Tuple[str, str]]) -> List[Tuple[str, Dict[str, str]]]:
+    def get_rejections_for_speaker(
+        turn_id: int,
+        speaker: str,
+        open_proposals: List[Tuple[str, str]],
+        min_dist_between_proposal_and_accept_or_reject: int
+    ) -> List[Tuple[str, Dict[str, str]]]:
         """
         Generate a list of rejection actions for a given speaker based on open proposals.
 
@@ -118,6 +129,9 @@ def generate_negotiation_dialogue(
                 if not open_proposals:
                     break
                 slot, value = random.choice(open_proposals)
+                # proposal_idx = find_proposal_turn_index(turn_id, opp(speaker), slot, value)
+                # if turn_id - proposal_idx < min_dist_between_proposal_and_accept_or_reject:
+                #     continue
                 open_proposals.remove((slot, value))
                 rejections.append(("reject", {slot: value}))
 
@@ -127,7 +141,12 @@ def generate_negotiation_dialogue(
         num_partial = get_number_of_partial_rejections()
         return formulate_rejections(num_partial)
 
-    def get_accepts_for_speaker(turn_id: int, speaker, open_proposals):
+    def get_accepts_for_speaker(
+        turn_id: int,
+        speaker: str,
+        open_proposals: List[Tuple[str, str]],
+        min_dist_between_proposal_and_accept_or_reject: int
+    ):
         """
         Generate a list of accept actions for the speaker.
         """
@@ -144,6 +163,9 @@ def generate_negotiation_dialogue(
             if not open_proposals:
                 break
             slot, value = random.choice(open_proposals)
+            # proposal_idx = find_proposal_turn_index(turn_id, opp(speaker), slot, value)
+            # if turn_id - proposal_idx < min_dist_between_proposal_and_accept_or_reject:
+            #     continue
             open_proposals.remove((slot, value))
             accepts.append(("accept", {slot: value}))
 
@@ -162,12 +184,24 @@ def generate_negotiation_dialogue(
             elif act_type in ["reject", "accept"]:
                 for slot, value in details.items():
                     if (slot, value) in open_offers[opponent]:
-                        open_offers[opponent].remove((slot, value))
+                        open_offers[opponent].remove((slot, value)) 
 
     def record_agreement(slot, value):
         """Add an agreement if not already present."""
         if (slot, value) not in agreements:
             agreements.append((slot, value))
+
+    def find_proposal_turn_index(curr_turn_id, speaker, slot, value):
+        """Find the turn index at which the proposal that was made."""
+        breakpoint()
+        for turn_idx in range(curr_turn_id - 1, -1, -1):
+            turn = dialogue[turn_idx]
+            if turn['turn'] == speaker:
+                for act, details in turn['acts']:
+                    if act == 'propose' and details:
+                        if list(details.items())[0] == (slot, value):
+                            return turn_idx
+        raise RuntimeError("Proposal not found.")
 
     # Initial setups
     dialogue = []
@@ -177,12 +211,13 @@ def generate_negotiation_dialogue(
     
     for i in range(num_turns):
         speaker = 'A' if i % 2 == 0 else 'B'
-        opponent = 'B' if speaker == 'A' else 'A'
+        opponent = opp(speaker)
 
         # Gather all actions
-        rejections = get_rejections_for_speaker(i, speaker, open_proposals)
-        accepts = get_accepts_for_speaker(i, speaker, open_proposals)
+        rejections = get_rejections_for_speaker(i, speaker, open_proposals, min_dist_between_proposal_and_accept_or_reject)
+        accepts = get_accepts_for_speaker(i, speaker, open_proposals, min_dist_between_proposal_and_accept_or_reject)
         proposals = generate_proposals(i, speaker, open_proposals, ontology, proposals_A, proposals_B)
+
         all_actions = rejections + accepts + proposals
 
         # Update states
@@ -245,11 +280,12 @@ def filename_to_params(filename: str) -> Dict[str, float]:
 
 
 def main(
-    num_turns: int = 10,
+    num_turns: int = 20,
     num_points_grid_search: int = 10,
-    num_train: int = 500,
-    num_val: int = 200,
+    num_train: int = 300,
+    num_val: int = 100,
     num_test: int = 300,
+    min_dist_between_proposal_and_accept_or_reject: int = 4,
     verbalizer: str = "explicit_mention_slot_only"
 ):
     ontology = {
@@ -291,6 +327,7 @@ def main(
                     partial_rejections_B=(params["partial_rejections_B"], 0.5),
                     partial_accepts_A=(params["partial_accepts_A"], 0.5),
                     partial_accepts_B=(params["partial_accepts_B"], 0.5),
+                    min_dist_between_proposal_and_accept_or_reject=min_dist_between_proposal_and_accept_or_reject
                 )
                 add_natural_language_utterances(dialogue, verbalizer)
                 for i, turn in enumerate(dialogue):
