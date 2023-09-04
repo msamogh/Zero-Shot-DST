@@ -10,72 +10,26 @@ random.seed(42)
 from fire import Fire
 import randomname
 
+from structs import (
+    SlotValuePair, SimulationParams, DialogueState,
+    Proposal, ActType, Turn, Act
+)
+import utils
 
-# Config-related dataclasses
+
 @dataclass
-class SimulationParams:
-    num_dials: int
-    ontology: Dict[str, List[str]]
-
-    num_turns: int
-    mean_proposals_a: int
-    mean_proposals_b: int
-    mean_rejects_a: int
-    mean_rejects_b: int
-    mean_accepts_a: int
-    mean_accepts_b: int
+class TurnSimulationChange:
+    """Records the progress of a turn simulation.
     
-    min_dist_between_proposal_and_accept_or_reject: int
-    
-    # Cultural parameters
-    is_multiple_proposals_in_one_turn_allowed: bool = False # TODO
-    is_overriding_proposal_implicit_rejection: bool = False # TODO
-    is_tangential_proposal_implicit_acceptance: bool = False # TODO
-    can_agreement_be_overridden: bool = True # TODO
-    
-
-# State-related dataclasses
-@dataclass(eq=True, frozen=True)
-class SlotValuePair:
-    slot: str
-    value: str
-
-@dataclass
-class Proposal:
-    speaker: str
-    slot_value: SlotValuePair
-    extra_info: Dict[str, Any] = field(default_factory=dict)
-
-@dataclass
-class DialogueState:
-    open_proposals: List[Proposal] = field(default_factory=list)
-    accepted_proposals: List[Proposal] = field(default_factory=list)
-    explicit_rejections: List[Proposal] = field(default_factory=list)
-
-
-# Turn-related dataclasses
-class ActType(Enum):
-    PROPOSE = "propose"
-    ACCEPT = "accept"
-    REJECT = "reject"
-
-@dataclass
-class Turn:
-    speaker: str
-    acts: List["Act"] = field(default_factory=list)
-    state: "DialogueState" = field(default_factory=DialogueState)
-    utterance: Optional[str] = None
-
-    def __post_init__(self):
-        from verbalizer import utterance_from_acts
-        self.utterance = utterance_from_acts(self.acts)
-
-
-@dataclass
-class Act:
-    act_type: ActType
-    slot_value: SlotValuePair
-
+    A single turn simulation can have multiple changes. For example, a turn simulation
+    can have a proposal, an accept, and a reject. The progress of each of these
+    changes is recorded in a TurnSimulationChange.
+    """
+    explicit_agreements_added: bool = False
+    explicit_rejections_added: bool = False
+    implicit_agreements_added: bool = False
+    implicit_rejections_added: bool = False
+    proposals_added: bool = False
 
 # Dialogue-related dataclasses
 @dataclass
@@ -84,99 +38,139 @@ class SimulatedDialogue:
     params: SimulationParams
 
     curr_turn_idx: int = 0
+    curr_proposing_slot_values: List[SlotValuePair] = field(default_factory=list)
+    curr_accepting_slot_values: List[SlotValuePair] = field(default_factory=list)
+    curr_rejecting_slot_values: List[SlotValuePair] = field(default_factory=list)
+
+    curr_turn_simulation_change: TurnSimulationChange = field(default_factory=TurnSimulationChange)
+
     state: DialogueState = field(default_factory=DialogueState)
     history: List[Turn] = field(default_factory=list)
 
-    @staticmethod
-    def sample_gauss(mean, std=1):
-        return int(random.gauss(mean, std))
-
-    def _select_unique_value(self, slot):
-        """Pick a unique value for a given slot that doesn't exist in existing proposals."""
-        available_values = list(self.params.ontology[slot])
-        random.shuffle(available_values)
-        for value in available_values:
-            if SlotValuePair(slot, value) not in [proposal.slot_value for proposal in self.state.open_proposals]:
-                return value
-        return None
 
     def generate_proposals(self):
         """Randomly generate proposals for the current speaker.
         
         Returns newly generated proposals.
         """
-        num_proposals = SimulatedDialogue.sample_gauss(self.curr_mean_proposals)
-        new_proposals = []
-        for _ in range(100):
-            if len(new_proposals) == num_proposals:
-                break
-            slot = random.choice(list(self.params.ontology.keys()))
-            # Don't propose the same slot twice in the same turn.
-            if slot in [p.slot_value.slot for p in new_proposals]:
-                continue
-            # Overwrite existing proposals from the same speaker for the same slot
-            # from earlier turns.
-            for p in self.state.open_proposals:
-                if p.slot_value.slot == slot and p.speaker == self.curr_speaker:
-                    self.state.open_proposals.remove(p)
-            value = self._select_unique_value(slot)
-            if value is None:
-                continue
-            new_proposals.append(
-                Proposal(
-                    self.curr_speaker,
-                    SlotValuePair(slot, value),
-                    extra_info={"turn_idx": self.curr_turn_idx}
-                )
-            )
+        assert (self.curr_turn_simulation_change.explicit_rejections_added and \
+            self.curr_turn_simulation_change.explicit_agreements_added and \
+            self.curr_turn_simulation_change.implicit_agreements_added and \
+            self.curr_turn_simulation_change.implicit_rejections_added), \
+            
+        new_proposals = self._create_random_proposals()
+        self._overwrite_existing_proposals(new_proposals)
         self.state.open_proposals.extend(new_proposals)
+
+        self.curr_turn_simulation_change.proposals_added = True
+
         return new_proposals
 
+
     def generate_accepts(self):
-        """Randomly generate accepts for the current speaker.
-        
-        Returns newly generated accepts.
         """
-        num_accepts = SimulatedDialogue.sample_gauss(self.curr_mean_accepts)
+        Randomly generate accepts for the current speaker.
+        
+        Returns:
+            list: A list of newly generated accepts.
+        """
+        num_accepts = utils.sample_gauss(self.curr_mean_accepts)
         new_accepts = []
         for _ in range(num_accepts):
             if not self.state.open_proposals:
                 break
             proposal_to_accept = random.choice(self.state.open_proposals)
-            if self.curr_turn_idx - proposal_to_accept.extra_info["turn_idx"] < self.params.min_dist_between_proposal_and_accept_or_reject:
-                continue
-            new_accepts.append(proposal_to_accept)
-            self.state.open_proposals.remove(proposal_to_accept)
-            self.state.accepted_proposals.append(proposal_to_accept)
+            if self.is_atleast_min_dist_away(proposal_to_accept):
+                self._accept_proposal(proposal_to_accept.slot_value)
+                new_accepts.append(proposal_to_accept)
+        self.curr_turn_simulation_change.explicit_agreements_added = True
         return new_accepts
+
 
     def generate_rejects(self):
         """Randomly generate rejects for the current speaker.
 
         Returns newly generated rejects.
         """
-        num_rejects = SimulatedDialogue.sample_gauss(self.curr_mean_rejects)
+        num_rejects = utils.sample_gauss(self.curr_mean_rejects)
         new_rejects = []
         for _ in range(num_rejects):
             if not self.state.open_proposals:
                 break
             proposal_to_reject = random.choice(self.state.open_proposals)
-            if self.curr_turn_idx - proposal_to_reject.extra_info["turn_idx"] < self.params.min_dist_between_proposal_and_accept_or_reject:
-                continue
-            new_rejects.append(proposal_to_reject)
-            self.state.open_proposals.remove(proposal_to_reject)
-            self.state.explicit_rejections.append(proposal_to_reject)
+            if self.is_atleast_min_dist_away(proposal_to_reject):
+                self._reject_proposal(proposal_to_reject.slot_value)
+                new_rejects.append(proposal_to_reject)
+        self.curr_turn_simulation_change.explicit_rejections_added = True
         return new_rejects
+
+
+    def generate_implicit_acceptances_if_needed(self):
+        """If is_tangential_proposal_implicit_acceptance is True, then we need to
+        generate implicit accepts for tangential proposals made in the immediately
+        previous turn.
+        """
+        assert (self.curr_turn_simulation_change.explicit_rejections_added and \
+            self.curr_turn_simulation_change.explicit_agreements_added), \
+            "Explicit agreements and rejections must be added before implicit rejections."
+
+        if self.curr_turn_idx > 0 and self.params.is_tangential_proposal_implicit_acceptance:
+            for act in [a for a in self.history[-1].acts if a.act_type == ActType.PROPOSE]:
+                self._accept_proposal(act.slot_value)
+
+        self.curr_turn_simulation_change.implicit_agreements_added = True
+
+    def generate_implicit_rejections_if_needed(self):
+        """If is_tangential_proposal_implicit_rejection is True, then we need to
+        generate implicit rejects for tangential proposals made in the immediately
+        previous turn.
+        """
+        assert (self.curr_turn_simulation_change.explicit_rejections_added and \
+            self.curr_turn_simulation_change.explicit_agreements_added), \
+            "Explicit agreements and rejections must be added before implicit rejections."
+        
+        if self.curr_turn_idx > 0 and self.params.is_tangential_proposal_implicit_rejection:
+            for act in [a for a in self.history[-1].acts if a.act_type == ActType.PROPOSE]:
+                try:
+                    self._reject_proposal(act.slot_value)
+                except ProposalNotFound:
+                    pass
+
+        self.curr_turn_simulation_change.implicit_rejections_added = True
+
+    def undo_agreements_implicitly_if_needed(self):
+        assert not (self.curr_turn_simulation_change.explicit_rejections_added or \
+            self.curr_turn_simulation_change.explicit_agreements_added or \
+            self.curr_turn_simulation_change.implicit_agreements_added or \
+            self.curr_turn_simulation_change.implicit_rejections_added or \
+            self.curr_turn_simulation_change.proposals_added), \
+            "No changes should be made before undoing agreements implicitly."
+        
+        if self.curr_turn_idx > 0 and self.params.does_new_proposal_immediately_undo_agreement:
+            agreed_upon_slots = [p.slot_value.slot for p in self.state.accepted_proposals]
+            current_proposal_slots = [p.slot_value.slot for p in self.state.open_proposals]
+            for slot in agreed_upon_slots:
+                if slot in current_proposal_slots:
+                    self.state.accepted_proposals = [
+                        p for p in self.state.accepted_proposals
+                        if p.slot_value.slot != slot
+                    ]
 
     @classmethod
     def generate_dialogue(cls, name: str, params: SimulationParams):
+        """Generate a dialogue with the given parameters."""
         dialogue = cls(name, params)
         for _ in range(params.num_turns):
+            dialogue.undo_agreements_implicitly_if_needed()
+
             new_rejects = dialogue.generate_rejects()
             new_accepts = dialogue.generate_accepts()
+
+            dialogue.generate_implicit_rejections_if_needed()
+            dialogue.generate_implicit_acceptances_if_needed()
+
             new_proposals = dialogue.generate_proposals()
-            
-            dialogue.curr_turn_idx += 1
+
             dialogue.history.append(
                 Turn(
                     speaker=dialogue.curr_speaker,
@@ -197,9 +191,15 @@ class SimulatedDialogue:
                             slot_value=proposal.slot_value
                         ) for proposal in new_rejects
                     ],
+                    simulation_params=params
                 )
             )
+            dialogue.curr_turn_idx += 1
+            dialogue.curr_proposing_slot_values = []
+            dialogue.curr_accepting_slot_values = []
+            dialogue.curr_rejecting_slot_values = []
         return dialogue
+
 
     def to_json(self):
         return {
@@ -220,6 +220,107 @@ class SimulatedDialogue:
             } for turn in self.history]
         }
 
+
+    def is_atleast_min_dist_away(self, proposal):
+        return (
+            self.curr_turn_idx - proposal.extra_info["turn_idx"] >=
+                self.params.min_dist_between_proposal_and_accept_or_reject
+        )
+
+    def _create_random_proposals(self):
+        """Generate a list of random proposals based on the defined parameters.
+        Returns:
+            List[Proposal]: A list of generated proposals.
+        """
+        num_proposals = utils.sample_gauss(self.curr_mean_proposals)
+        new_proposals = []
+        for _ in range(100):
+            if len(new_proposals) == num_proposals:
+                break
+            # Choose a random slot
+            slot = random.choice(list(self.params.ontology.keys()))
+            if self._slot_already_proposed(slot, new_proposals):
+                continue
+            # Choose a random, unique value for the slot
+            value = self._select_unique_value(slot)
+            if value is not None:
+                new_proposals.append(
+                    Proposal(
+                        self.curr_speaker,
+                        SlotValuePair(slot, value),
+                        extra_info={"turn_idx": self.curr_turn_idx}
+                    )
+                )
+        return new_proposals
+    
+    def _select_unique_value(self, slot):
+        """Pick a unique value for a given slot that doesn't exist in existing proposals or agreements."""
+        available_values = list(self.params.ontology[slot])
+        random.shuffle(available_values)
+        proposed_values = [p.slot_value for p in self.state.open_proposals]
+        agreed_values = [p.slot_value for p in self.state.accepted_proposals]
+        for value in available_values:
+            if SlotValuePair(slot, value) not in (proposed_values + agreed_values):
+                return value
+        return None
+    
+    def _slot_already_proposed(self, slot, proposals):
+        """Check if the slot has already been proposed in the current turn.
+        Args:
+            slot (str): The slot in question.
+            proposals (List[Proposal]): The list of current proposals.
+        Returns:
+            bool: True if the slot has already been proposed, False otherwise.
+        """
+        return slot in [p.slot_value.slot for p in proposals]
+
+    def _overwrite_existing_proposals(self, new_proposals):
+        """Overwrite any existing proposals from the same speaker for the same slot.
+        Args:
+            new_proposals (List[Proposal]): The list of new proposals.
+        """
+        for new_proposal in new_proposals:
+            for existing_proposal in self.state.open_proposals:
+                if (existing_proposal.slot_value.slot == new_proposal.slot_value.slot 
+                    and existing_proposal.speaker == self.curr_speaker):
+                    self.state.open_proposals.remove(existing_proposal)
+
+    def _accept_proposal(self, slot_value):
+        """
+        Helper function to accept a proposal. 
+        It will remove the proposal from open_proposals and add it to accepted_proposals.
+        """
+        if slot_value.slot not in [x.slot for x in self.curr_proposing_slot_values + self.curr_accepting_slot_values]:
+            try:
+                proposal = next(p for p in self.state.open_proposals if p.slot_value == slot_value)
+                self.state.open_proposals.remove(proposal)
+                self.state.accepted_proposals.append(proposal)
+                self.curr_accepting_slot_values.append(
+                    Act(act_type=ActType.ACCEPT, slot_value=slot_value).slot_value
+                )
+            except (ValueError, StopIteration):
+                raise ProposalNotFound(
+                    f"Slot value {slot_value} not found in open proposals."
+                )
+
+    def _reject_proposal(self, slot_value):
+        """
+        Helper function to reject a proposal. 
+        It will remove the proposal from open_proposals and add it to explicit_rejections.
+        """
+        if slot_value not in self.curr_proposing_slot_values + self.curr_rejecting_slot_values:
+            try:
+                proposal = next(p for p in self.state.open_proposals if p.slot_value == slot_value)
+                self.state.open_proposals.remove(proposal)
+                self.state.explicit_rejections.append(proposal)
+                self.curr_rejecting_slot_values.append(
+                    Act(act_type=ActType.REJECT, slot_value=slot_value).slot_value
+                )
+            except (ValueError, StopIteration):
+                raise ProposalNotFound(
+                    f"Slot value {slot_value} not found in open proposals."
+                )
+
     @property
     def curr_speaker(self):
         return "A" if self.curr_turn_idx % 2 == 0 else "B"
@@ -235,6 +336,11 @@ class SimulatedDialogue:
     @property
     def curr_mean_rejects(self):
         return self.params.mean_rejects_a if self.curr_speaker == "A" else self.params.mean_rejects_b
+
+
+class ProposalNotFound(Exception):
+    """Raised when a non-existent proposal is attempted to be accepted or rejected."""
+    pass
 
 
 @dataclass
@@ -269,16 +375,17 @@ def main():
         mean_proposals_b=2,
         mean_rejects_a=1,
         mean_rejects_b=1,
-        mean_accepts_a=1,
-        mean_accepts_b=1,
-        min_dist_between_proposal_and_accept_or_reject=3,
-        is_overriding_proposal_implicit_rejection=True,
-        is_tangential_proposal_implicit_acceptance=True,
-        can_agreement_be_overridden=True,
-        is_multiple_proposals_in_one_turn_allowed=True
+        mean_accepts_a=2,
+        mean_accepts_b=2,
+        min_dist_between_proposal_and_accept_or_reject=1,
+        is_tangential_proposal_implicit_rejection=True,
+        is_tangential_proposal_implicit_acceptance=False,
+        does_new_proposal_immediately_undo_agreement=False,
+        # is_multiple_proposals_for_a_slot_allowed=False,
     )
     simulator = Simulator(params)
     simulator.generate_dialogues()
+
 
 if __name__ == "__main__":
     Fire(main)

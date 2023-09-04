@@ -1,6 +1,14 @@
 from simulator import SimulationParams
 from itertools import product
+from pprint import pprint
 
+    
+CULTURE_NAMES = {
+    # "is_multiple_proposals_for_a_slot_allowed": ["explorer", "conservative"],
+    "is_tangential_proposal_implicit_rejection": ["avoidant", "direct"],
+    "is_tangential_proposal_implicit_acceptance": ["stoic", "celebratory"],
+    "does_new_proposal_immediately_undo_agreement": ["flexible", "rigid"],
+}
 
 VALUE_TO_BOOL_MAP = {
     "explorer": True,
@@ -12,12 +20,7 @@ VALUE_TO_BOOL_MAP = {
     "flexible": True,
     "rigid": False,
 }
-CULTURE_NAMES = {
-    "is_multiple_proposals_in_one_turn_allowed": ["explorer", "conservative"],
-    "is_overriding_proposal_implicit_rejection": ["avoidant", "direct"],
-    "is_tangential_proposal_implicit_acceptance": ["stoic", "celebratory"],
-    "can_agreement_be_overridden": ["flexible", "rigid"],
-}
+
 culture_names = product(*CULTURE_NAMES.values())
 
 def get_cultures():
@@ -30,4 +33,4 @@ def get_cultures():
     return cultures
 
 if __name__ == "__main__":
-    print(get_cultures())
+    pprint(get_cultures())
