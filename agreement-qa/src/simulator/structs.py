@@ -3,43 +3,11 @@ from enum import Enum
 from typing import *
 
 
-# Config-related dataclasses
-@dataclass
-class SimulationParams:
-    num_dials: int
-    ontology: Dict[str, List[str]]
-
-    num_turns: int
-    mean_proposals_a: int
-    mean_proposals_b: int
-    mean_rejects_a: int
-    mean_rejects_b: int
-    mean_accepts_a: int
-    mean_accepts_b: int
-    
-    min_dist_between_proposal_and_accept_or_reject: int
-    
-    # Cultural parameters
-    # is_multiple_proposals_for_a_slot_allowed: bool = False # TODO
-    is_tangential_proposal_implicit_rejection: bool = False
-    is_tangential_proposal_implicit_acceptance: bool = False
-    does_new_proposal_immediately_undo_agreement: bool = False
-
-    def __post_init__(self):
-        # We don't want to allow both implicit rejection and implicit acceptance
-        # for tangential proposals simultaneously.
-        assert not (
-            self.is_tangential_proposal_implicit_rejection and \
-            self.is_tangential_proposal_implicit_acceptance
-        ), "Cannot have both implicit rejection and implicit acceptance for tangential proposals."
-    
-
 # State-related dataclasses
 @dataclass(eq=True, frozen=True)
 class SlotValuePair:
     slot: str
     value: str
-
 
 @dataclass(eq=True, frozen=True)
 class Proposal:
@@ -70,7 +38,7 @@ class Turn:
     speaker: str
     acts: List["Act"]
     state: "DialogueState"
-    simulation_params: SimulationParams
+    simulation_params: "SimulationParams"
     utterance: Optional[str] = None
 
     def __post_init__(self):
@@ -82,3 +50,4 @@ class Turn:
 class Act:
     act_type: ActType
     slot_value: SlotValuePair
+    extra_info: Dict[str, Any] = field(default_factory=dict)

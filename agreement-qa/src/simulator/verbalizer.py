@@ -38,7 +38,7 @@ VERBALIZERS = {
         "{value} is not a good idea."
     ],
     VerbalizerType.REJECT_SLOT_ONLY.value: [
-        "I don't agree with your proposal for {slot}",
+        "I don't agree with your proposal for {slot}.",
     ],
     VerbalizerType.ACCEPT_SLOT_VALUE.value: [
         "I agree with {slot} being {value}.",
@@ -48,7 +48,7 @@ VERBALIZERS = {
         "{value} sounds good to me."
     ],
     VerbalizerType.ACCEPT_SLOT_ONLY.value: [
-        "I agree with your proposal for {slot}",
+        "I agree with your proposal for {slot}.",
     ]
 }
 
@@ -68,15 +68,13 @@ def utterance_from_acts(acts, simulation_params):
                 VerbalizerType.ACCEPT_SLOT_VALUE,
                 VerbalizerType.ACCEPT_SLOT_ONLY,
                 VerbalizerType.ACCEPT_VALUE_ONLY
-            ]) if not simulation_params.is_multiple_proposals_for_a_slot_allowed \
-            else VerbalizerType.ACCEPT_SLOT_VALUE
+            ])
         elif "reject" in act.act_type.value:
             verbalizer_type = random.choice([
                 VerbalizerType.REJECT_SLOT_VALUE,
                 VerbalizerType.REJECT_SLOT_ONLY,
                 VerbalizerType.REJECT_VALUE_ONLY
-            ]) if not simulation_params.is_multiple_proposals_for_a_slot_allowed \
-            else VerbalizerType.REJECT_SLOT_VALUE
+            ])
         else:
             raise NotImplementedError
         utterance += get_random_fragment(verbalizer_type).format(
